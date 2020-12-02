@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AugmentoEmployee.web", "AugmentoEmployee\AugmentoEmployee.web.csproj", "{CFEA93A3-012A-4196-8DB4-2ED0F5272573}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Development", "Development", "{1D4AE175-7A45-4840-9BC6-F17BC9F05269}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{1B9F8745-40C8-43BD-B3F1-8CA012D3239E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AugmentoEmployee.Service", "AugmentoEmployee.Service\AugmentoEmployee.Service.csproj", "{B89DC725-3071-49B0-AAD8-94E8A1E1537F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AugmentoEmployee.Repository,Sql", "AugmentoEmployee.Repository,Sql\AugmentoEmployee.Repository,Sql.csproj", "{75267EF7-9E9D-42CB-8F88-B244DCC5F907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AugmentoEmployee.Database.Models", "AugmentoEmployee.Database.Models\AugmentoEmployee.Database.Models.csproj", "{8248563D-06A8-4718-A952-AC088DA826B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFEA93A3-012A-4196-8DB4-2ED0F5272573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFEA93A3-012A-4196-8DB4-2ED0F5272573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFEA93A3-012A-4196-8DB4-2ED0F5272573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFEA93A3-012A-4196-8DB4-2ED0F5272573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B89DC725-3071-49B0-AAD8-94E8A1E1537F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89DC725-3071-49B0-AAD8-94E8A1E1537F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B89DC725-3071-49B0-AAD8-94E8A1E1537F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89DC725-3071-49B0-AAD8-94E8A1E1537F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75267EF7-9E9D-42CB-8F88-B244DCC5F907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75267EF7-9E9D-42CB-8F88-B244DCC5F907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75267EF7-9E9D-42CB-8F88-B244DCC5F907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75267EF7-9E9D-42CB-8F88-B244DCC5F907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8248563D-06A8-4718-A952-AC088DA826B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8248563D-06A8-4718-A952-AC088DA826B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8248563D-06A8-4718-A952-AC088DA826B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8248563D-06A8-4718-A952-AC088DA826B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFEA93A3-012A-4196-8DB4-2ED0F5272573} = {1D4AE175-7A45-4840-9BC6-F17BC9F05269}
+		{B89DC725-3071-49B0-AAD8-94E8A1E1537F} = {1D4AE175-7A45-4840-9BC6-F17BC9F05269}
+		{75267EF7-9E9D-42CB-8F88-B244DCC5F907} = {1D4AE175-7A45-4840-9BC6-F17BC9F05269}
+		{8248563D-06A8-4718-A952-AC088DA826B8} = {1D4AE175-7A45-4840-9BC6-F17BC9F05269}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83742D52-8B42-4877-A43C-FF2319CF1454}
+	EndGlobalSection
+EndGlobal
